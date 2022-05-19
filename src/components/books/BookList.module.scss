@@ -1,0 +1,9 @@
+.bookList {
+  list-style-type: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 0;
+}

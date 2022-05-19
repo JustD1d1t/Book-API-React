@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.logoContainer {
+  width: 100px;
+  height: 100px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.linkContianer {
+  list-style-type: none;
+  display: flex;
+}
+.linkItem {
+  padding: 0.5rem 1rem;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: red;
+  }
+}
