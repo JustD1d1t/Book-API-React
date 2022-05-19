@@ -9,13 +9,11 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <BookContextProvider>
-      <Router>
-        <Layout>
-          <App />
-        </Layout>
-      </Router>
-    </BookContextProvider>
-  </React.StrictMode>
+  <BookContextProvider>
+    <Router>
+      <Layout>
+        <App />
+      </Layout>
+    </Router>
+  </BookContextProvider>
 );
